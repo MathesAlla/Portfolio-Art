@@ -113,7 +113,6 @@ video {
   }
 
   .Portfolio-image {
-    filter: blur(2px);
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 82%;
@@ -122,19 +121,18 @@ video {
 
   .btn {
     position: absolute;
-    letter-spacing: 12px;
+    font-size: 24px;
+    letter-spacing: 7px;
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color:transparent;
     color: white;
-    font-size: 32px;
     padding: 12px 24px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    margin-top: 72%;
+    text-decoration: none;
   }
-
-
- 
