@@ -66,7 +66,7 @@ video {
     position: absolute;
     color: #f1f1f1;
     width: 100%;
-    margin-top: 45%;
+    margin-top: 47%;
     transform:rotate(90deg);
 
   }
@@ -76,7 +76,7 @@ video {
     height: 170px;
     position: absolute;
     left: 50.45%;
-    top: 95%;
+    top: 97%;
   }
 
   .line2 {
@@ -84,7 +84,7 @@ video {
     height: 50px;
     position: absolute;
     left: 50.45%;
-    top: 70%;
+    top: 73%;
   }
 
 
@@ -115,7 +115,7 @@ video {
   .Portfolio-image {
     margin-left: 25%;
     margin-right: 25%;
-    margin-top: 82%;
+    margin-top: 1200px;
     padding-bottom: 80px;
   }
 
@@ -123,7 +123,7 @@ video {
     position: absolute;
     font-size: 24px;
     letter-spacing: 7px;
-    top: 35%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -133,7 +133,7 @@ video {
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    margin-top: 72%;
+    margin-top: 1060px;
     text-decoration: none;
   }
 
@@ -194,6 +194,97 @@ video {
     font-size: 9px;
     font-family: Corbel, light, sans-serif;
   }
+
+
+  @media screen and (max-width: 600px) {
+    .content_front_Page2 {
+      font-size: 9px;
+      padding-top: 36%;
+    }
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .content_front_Page {
+      font-size: 17px;
+      padding-top: 40%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .content_front_Page3 {
+      font-size: 10px;
+      padding-top: 50%;
+    }
+  }
+
+
+/*noch nicht ferig */
+  @media screen and (max-width: 600px) {
+    .VerticalScroll {
+      font-size: 6px;
+      margin-top: 570px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .TextAboutMe {
+      font-size: 9px;
+      padding-top: 850px;
+      letter-spacing: 1px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .dummy_page {
+      font-size: 7px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .Portfolio-image {
+    margin-top: 1000px;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-bottom: 20px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .btn {
+      font-size: 12px;
+      margin-top: 860px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .AboutMeTag {
+      font-size: 12px;
+      padding-top: 824px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .line2 {
+      top: 460px;
+      left: 52%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .line {
+     top: 650px;
+     left: 52%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .Portfolio-image {
+      
+    }
+  }
+
+
 
 
   
