@@ -3,6 +3,7 @@
   font-family: Corbel, light, sans-serif;
 }
 
+
 video {
     object-fit: cover;
     width: 100vw;
@@ -71,21 +72,6 @@ video {
 
   }
 
-  .line {
-    border-left: 1px solid rgb(189, 189, 189);
-    height: 170px;
-    position: absolute;
-    left: 50.45%;
-    top: 97%;
-  }
-
-  .line2 {
-    border-left: 1px solid rgb(160, 160, 160);
-    height: 50px;
-    position: absolute;
-    left: 50.45%;
-    top: 73%;
-  }
 
 
   .AboutMeTag {
@@ -112,13 +98,6 @@ video {
 
   }
 
-  .Portfolio-image {
-    padding-left: 29%;
-    margin-right: 25%;
-    margin-top: 1500px;
-    padding-bottom: 80px;
-  }
-
   .btn {
     position: absolute;
     font-size: 24px;
@@ -132,7 +111,7 @@ video {
     padding: 12px 24px;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 0px;
     margin-top: 960px;
     text-decoration: none;
   }
@@ -219,7 +198,6 @@ video {
   }
 
 
-/*noch nicht ferig */
   @media screen and (max-width: 600px) {
     .VerticalScroll {
       font-size: 6px;
@@ -241,14 +219,6 @@ video {
     }
   }
 
-  @media screen and (max-width: 600px) {
-    .Portfolio-image {
-    margin-top: 1000px;
-    margin-left: 4%;
-    margin-right: 4%;
-    padding-bottom: 20px;
-    }
-  }
 
   @media screen and (max-width: 600px) {
     .btn {
@@ -264,19 +234,6 @@ video {
     }
   }
 
-  @media screen and (max-width: 600px) {
-    .line2 {
-      top: 460px;
-      left: 52%;
-    }
-  }
-
-  @media screen and (max-width: 600px) {
-    .line {
-     top: 650px;
-     left: 52%;
-    }
-  }
 
 
 
@@ -305,7 +262,7 @@ video {
   @media screen and (max-width: 600px) {
     .responsive {
      margin-top: 1000px;
-     margin-left: 10px;
+     margin-left: 0px;
     }
   }
 
