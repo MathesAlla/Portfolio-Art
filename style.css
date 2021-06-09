@@ -123,7 +123,7 @@ video {
     position: absolute;
     font-size: 24px;
     letter-spacing: 7px;
-    top: 40%;
+    top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -296,17 +296,16 @@ video {
 
 
   .responsive {
-    width: 100%;
     max-width: 400px;
     height: auto;
-    margin-left: 35.5%;
+    margin-left: 36.5%;
     margin-top: 81%;
   }
 
   @media screen and (max-width: 600px) {
     .responsive {
      margin-top: 1000px;
-     margin-left: 5px;
+     margin-left: 10px;
     }
   }
 
