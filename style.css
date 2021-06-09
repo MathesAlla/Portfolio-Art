@@ -113,7 +113,7 @@ video {
   }
 
   .Portfolio-image {
-    padding-left: 25%;
+    padding-left: 29%;
     margin-right: 25%;
     margin-top: 1500px;
     padding-bottom: 80px;
@@ -133,7 +133,7 @@ video {
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    margin-top: 1190px;
+    margin-top: 960px;
     text-decoration: none;
   }
 
@@ -275,6 +275,38 @@ video {
     .line {
      top: 650px;
      left: 52%;
+    }
+  }
+
+
+
+  .dummy_page2 {
+    height: 80px;
+    width: 100%;
+    background-color: #1a1a1a;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 4px 0px;
+    margin-top: 80px;
+    color: white;
+    letter-spacing: 7px;
+    font-size: 9px;
+    font-family: Corbel, light, sans-serif;
+  }
+
+
+  .responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-left: 35.5%;
+    margin-top: 81%;
+  }
+
+  @media screen and (max-width: 600px) {
+    .responsive {
+     margin-top: 1000px;
+     margin-left: 5px;
     }
   }
 
