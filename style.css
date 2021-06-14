@@ -266,6 +266,13 @@ video {
     }
   }
 
+  @media screen and (aspect-ratio: 16/9) {
+    .responsive {
+      margin-top: 1450px;
+      margin-left: 745PX;
+    }
+}
+
 
 
 
